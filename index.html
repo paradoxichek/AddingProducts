@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+<div class="mistake">
+    <h1 style="text-align: left; font-size: 40px;">Ошибка!</h1>
+    <p class="mistake-text"></p>
+</div>
+<div class="mistake2">
+    <h1 style="text-align: left; font-size: 30px;">Отфильтровано! <i class='bx bxs-happy-beaming'></i> </h1>
+</div>
+
+
+        <div class="btn-show" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="700">
+            <button>Добавить новый товар</button>
+        </div>
+    
+        <form class="show" name="form" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="500" >
+            <div class="elem">
+                <h3>Товары от:</h3>
+
+                <input class="min"  name="min" placeholder="50000 сум" type="text">
+            </div>
+            <div class="elem">
+                <h3>Товары до:</h3>
+
+                <input class="min" name="max" placeholder="150000 сум" type="text">
+            </div>
+    
+            <button class="filtered">Показать</button>
+        </form>
+    
+        <div class="menu">
+            <form class="dd" name="menu">
+                <h4>Название товара</h4>
+                <input name="title" placeholder="Курица" type="text">
+    
+                <h4>Цена товара</h4>
+                <input name="price" placeholder="100000 сум" type="text">
+             
+
+                <button class="added">Добавить</button>
+            </form>
+             
+     
+                <div class="ff">
+                    <button class="switch">Назад</button>
+                </div>
+            </div>
+    
+            <hr>
+    
+    
+        <div class="main" data-aos="flip-left"    data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="1200">
+
+        </div>
+
+
+
+    </div>
+
+    
+
+<script src="./document.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</body>
+</html>
